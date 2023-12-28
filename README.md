@@ -20,4 +20,4 @@ dependencies {
 }
 ```
 
-Refer to the KDocs for more information on usage.
+Refer to the [KDocs](https://incendium.github.io/enum-utils/) for more information on usage.
