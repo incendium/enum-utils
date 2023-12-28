@@ -1,0 +1,28 @@
+[versions]
+assertk = "0.28.0"
+gradle-plugin-detekt = "1.23.4"
+gradle-plugin-dokka = "1.9.10"
+gradle-plugin-versions = "0.45.0"
+junit = "5.10.1"
+kotest = "5.8.0"
+kotlin = "1.9.21"
+
+[libraries]
+test-assertk-jvm = { module = "com.willowtreeapps.assertk:assertk-jvm", version.ref = "assertk" }
+test-junit-all = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+test-kotest-framework-engine-jvm = { module = "io.kotest:kotest-framework-engine-jvm", version.ref = "kotest" }
+test-kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
+
+[bundles]
+commonTest = [
+    "test-assertk-jvm",
+    "test-junit-all",
+    "test-kotest-framework-engine-jvm",
+    "test-kotest-runner-junit5",
+]
+
+[plugins]
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "gradle-plugin-detekt" }
+dokka = { id = "org.jetbrains.dokka", version.ref = "gradle-plugin-dokka" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+versions = { id = "com.github.ben-manes.versions", version.ref = "gradle-plugin-versions" }
