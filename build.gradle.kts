@@ -14,7 +14,7 @@ val ossrhUsername: String? by project
 val ossrhPassword: String? by project
 
 group = "com.iamincendium.common"
-version = "0.1.0-SNAPSHOT"
+version = "0.1.0"
 
 repositories {
     mavenCentral()
