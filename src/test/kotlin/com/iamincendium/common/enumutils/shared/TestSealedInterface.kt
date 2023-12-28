@@ -1,4 +1,4 @@
-package com.iamincendium.kotlin.enumutils.shared
+package com.iamincendium.common.enumutils.shared
 
 sealed interface TestSealedInterface {
     val name: String

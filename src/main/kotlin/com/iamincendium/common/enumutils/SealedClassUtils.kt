@@ -1,4 +1,4 @@
-package com.iamincendium.kotlin.enumutils
+package com.iamincendium.common.enumutils
 
 /**
  * Create a list of all objects implementing a specific sealed class or interface.

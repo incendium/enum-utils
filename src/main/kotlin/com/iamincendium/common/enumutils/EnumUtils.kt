@@ -1,4 +1,4 @@
-package com.iamincendium.kotlin.enumutils
+package com.iamincendium.common.enumutils
 
 /**
  * Look up an enum or return `null` if no matching enum was found.

@@ -1,4 +1,4 @@
-package com.iamincendium.kotlin.enumutils.shared
+package com.iamincendium.common.enumutils.shared
 
 sealed class TestSealedClass(val name: String) {
     data object SealedValueA : TestSealedClass("A")

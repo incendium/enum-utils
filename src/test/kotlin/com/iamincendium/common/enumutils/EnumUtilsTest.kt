@@ -1,11 +1,11 @@
-package com.iamincendium.kotlin.enumutils
+package com.iamincendium.common.enumutils
 
 import assertk.assertThat
 import assertk.assertions.containsOnly
 import assertk.assertions.isEqualTo
 import assertk.assertions.isFalse
 import assertk.assertions.isNull
-import com.iamincendium.kotlin.enumutils.shared.TestEnum
+import com.iamincendium.common.enumutils.shared.TestEnum
 import io.kotest.core.spec.style.DescribeSpec
 
 class EnumUtilsTest : DescribeSpec({

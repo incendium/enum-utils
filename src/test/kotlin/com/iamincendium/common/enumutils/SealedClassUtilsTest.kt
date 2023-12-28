@@ -1,10 +1,10 @@
-package com.iamincendium.kotlin.enumutils
+package com.iamincendium.common.enumutils
 
 import assertk.assertThat
 import assertk.assertions.containsExactly
 import assertk.assertions.containsOnly
-import com.iamincendium.kotlin.enumutils.shared.TestSealedClass
-import com.iamincendium.kotlin.enumutils.shared.TestSealedInterface
+import com.iamincendium.common.enumutils.shared.TestSealedClass
+import com.iamincendium.common.enumutils.shared.TestSealedInterface
 import io.kotest.core.spec.style.DescribeSpec
 
 class SealedClassUtilsTest : DescribeSpec({
